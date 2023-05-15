@@ -1,0 +1,99 @@
+
+.balance{
+    padding: 20px;
+}
+
+.ba-balance-inner {
+    background-image: url('../../assets/2.png');
+    border: 1px solid #ececec;
+    margin: 0 45px;
+    padding: 20px;
+    border-radius: 6px;
+}
+.ba-balance-inner .icon {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    line-height: 48px;
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(104, 62, 254, 0.82);
+    box-shadow: 0px 0px 29px 0px rgba(104, 62, 254, 0.82);
+    border-radius: 50%;
+    background: #6236ff;
+    margin-bottom: 13px;
+   
+}
+
+
+.ba-balance-inner .title {
+    color: #292929;
+    margin-bottom: 7px;
+}
+.ba-balance-inner .amount {
+    color: #0114a7;
+    margin-bottom: 0;
+}
+h5 {
+    font-size: 18px;
+    line-height: 1.2380952380952381;
+}
+.ba-add-balance-btn {
+    cursor: pointer;
+}
+.ba-add-balance-title {
+    
+    border-left: 2px solid #6236ff;
+    border-right: 2px solid #6236ff;
+    background: #fff;
+    padding: 18px 20px 17px 20px;
+    display: block;
+    overflow: hidden;
+}
+.ba-add-balance-title h5 {
+    color: #6236ff;
+    margin-bottom: 0;
+    float: left;
+}
+.ba-add-balance-title i {
+    color: #6236ff;
+    float: right;
+    padding-top: 3px;
+}
+.ba-add-balance-inner {
+    border: 1px solid #ececec;
+    padding: 20px 22px 0 22px;
+    border-radius: 6px;
+}
+
+
+.ba-add-balance-inner .btn {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.ba-add-balance-btn {
+    cursor: pointer;
+}
+
+
+.btn {
+    border: 0;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 0 25px;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    border-radius: 4px;
+}
+.btn-blue:hover{
+    background-color: #9274ff;
+    color: #fff;
+}
+.btn i{
+    padding-left: 0.5rem;
+}
+
+.btn-red:hover{
+    background: #ff6c93;
+    color: #fff;
+}

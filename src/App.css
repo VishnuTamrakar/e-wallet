@@ -1,38 +1,68 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  
+}
+ul{
+  display: flex;
+  gap: 10px;
+}
+.mg-top-40{
+  margin-top: 40px;
+}
+.mg-bottom-40{
+  margin-bottom: 40px;
+}
+.pd-top-40{
+  padding-top: 40px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.pd-20{
+  padding: 20px;
+}
+.btn-blue {
+  color: #fff;
+  background: #6236ff;
+}
+.btn-red {
+  background: #f9376c;
+  color: #fff;
+}
+.btn-large {
+  border: 0;
+  height: 70px;
+  line-height: 70px;
+  font-size: 20px;
+  padding: 0 25px;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border-radius: 5px;
+  font-weight: 500;
+  display: inline-block;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-large i{
+  padding-left: 10px;
+  font-size: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Ttitle{
+  padding: 20px 0;
+  margin-top: 10px;
+  color: #6236ff;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.popup{
+  width: 100vw;
 }

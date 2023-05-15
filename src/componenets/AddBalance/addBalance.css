@@ -1,0 +1,93 @@
+.add-balance-inner-wrap.add-balance-inner-wrap-show {
+    bottom: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.add-balance-inner-wrap {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: -500px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 10;
+    background: #fff;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0.5rem;
+    pointer-events: none;
+}
+
+.modal-content {
+    border: 0 none;
+}
+.modal-header {
+    color: #2c304d;
+    border-bottom: 0.07rem solid #eee;
+
+}
+
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+.input-group-prepend {
+    margin-right: -1px;
+    display: flex;
+}
+.btn-lg {
+    padding: 0.75rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 4.2rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #5d5386;
+    border-color: #5d5386;
+}
+.btn-c {
+    font-weight: 600 !important;
+    line-height: 1.25;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    border-radius: 60px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin: 2px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
