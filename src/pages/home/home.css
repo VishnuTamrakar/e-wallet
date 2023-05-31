@@ -1,0 +1,23 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  padding: 2rem;
+}
+.Hleft{
+  margin-top: 2rem;
+}
+.Hleft span {
+  color: #0d6efd;
+}
+.home .title {
+  color: #0114a7;
+}
+.Sbtn {
+  padding: 0px 2rem;
+  margin: 1rem 0;
+  background-color: #0d6efd;
+}

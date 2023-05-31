@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
@@ -23,46 +24,42 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item ">
-                <Link
-                  className="nav-link "
-                  style={{ color: "#fff" }}
-                  aria-current="page"
-                  to="/"
-                >
+                <Link className="nav-link " aria-current="page" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item ">
+                <Link className="nav-link " aria-current="page" to="/dashboard">
                   Dashboard
                 </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  style={{ color: "#fff" }}
-                  to="/transaction"
-                >
+                <Link className="nav-link" to="/transaction">
                   Transaction
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  style={{ color: "#fff" }}
-                  to="/login"
-                >
-                  Login
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  style={{ color: "#fff" }}
-                  to="/signup"
-                >
-                  Signup
-                </Link>
-              </li>
             </ul>
-            <button class="btn btn-dark" type="submit">
-              Balance:2000rs
-            </button>
+            <div className="button">
+              <Link className="btn lBtn " to="/login">
+                login
+              </Link>
+              <Link className="btn sBtn " to="/signup">
+                Signup
+              </Link>
+              <div className="profile">
+                <Link to="/profile">
+                  <img
+                    style={{
+                      width: "40px",
+                      height: "40px",
+                      borderRadius: "50%",
+                    }}
+                    src={require("../../assets/download.png")}
+                    alt="img"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
